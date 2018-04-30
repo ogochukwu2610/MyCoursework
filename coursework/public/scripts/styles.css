@@ -1,0 +1,296 @@
+body, html {
+  //height: 100%;
+}
+
+h2{
+  background-color: white;
+}
+
+.drinktitle{
+  background-color: white;
+  font-weight: BOLD;
+  color: black;
+}
+
+.bg {
+  background-image: url("/Images/HOME_IMAGE_2.png");
+  height: 100%;
+  background-position: center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:auto;
+}
+
+#MainHeader{
+  color:white;
+  text-align: center;
+}
+
+#resultsbox{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width:1000px;
+  color:white;
+  overflow:auto;
+}
+
+
+#placeholderDiv{
+  //position: fixed;
+  top: 50px;
+  margin-top: 2%;
+  width: 100%;
+  border-radius: 8px;
+  line-height: 25px;
+  padding: 15px;
+  overflow:auto;
+  max-height: 600px;
+  
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+.form-wrapper{
+  width: 100%;
+  margin: auto;
+  margin-bottom:7%;
+}
+
+#inputTitle{
+  color:white;
+}
+
+#leftsection{
+  position: relative; //fixed;
+  //top: 20%;
+  margin-top: 15%;
+  //width: 35%;
+  border-radius: 8px;
+  line-height: 25px;
+  float:left;
+  padding: 15px;
+  //margin-left: 5%;
+  background-color:rgb(52,58,64) ;
+  overflow:auto;
+  max-height: 450px;
+  max-width: 300px;
+}
+body{
+  margin-bottom: 90px;
+}
+.firstRow{
+  margin-bottom: 90px;
+}
+
+/*About Page*/
+#abouttitle{
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+  font-family: 'Montserrat thin' sans-serif;
+}
+#ARROW-01{
+  display: block;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#whatispyp{
+  color: black;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-family: 'Montserrat' sans-serif;
+}
+#MainHeader{
+  color:white;
+  text-align: center;
+}
+
+.container{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 120px;
+}
+
+.containerforabout{
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 120px;
+}
+
+.p3{
+//  height:20%;
+  color: Green;
+  text-align: center;
+  font-weight: bold;
+  font-size:20px;
+  width: 250px;
+
+}
+
+.p4{
+  height:250px;
+  width: 350px;
+  text-align: center;
+
+}
+
+.makeGreen{
+  color: Green;
+}
+
+.fit-in{
+  margin-right: 25px;
+}
+
+#StuffAboutTheWebsite1,#StuffAboutTheWebsite2, #StuffAboutTheWebsite3 {
+  //text-align:justify;
+  text-justify: inter-word;
+  //height:50%;
+  color:black;
+  //padding-left: 0px;
+  //padding-right: 0px;
+}
+
+/*Login*/
+
+.login-page{
+  width:360px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin:auto;
+}
+
+a#active{
+  color: lightgreen;
+}
+
+#loginLogo{
+  width: 150px;
+  height: 150px;
+}
+
+.form{
+  position:relative;
+  z-index:1;
+  background:rgba(52,58,64,0.5);
+  max-width: 360px;
+//  margin: 0 auto 100px;
+  padding: 2%;
+  text-align: center;
+}
+
+.form input{
+  font-family: sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+  background: #43A047;
+}
+
+.form .message{
+  margin: 15px 0 0;
+  color: black ;
+  font-size: 20px;
+
+}
+
+.form .message a{
+  color:#4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form{
+  display: none;
+}
+
+
+/*footer*/
+
+#footer-info{
+ position: fixed;
+ height: 80px;
+ bottom: 0px;
+ left:0px;
+ right:0px;
+ margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  background-color: #343a40;
+//  padding: 60px 0px;
+}
+.socials{
+
+  position: fixed;
+  height: 30px;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  margin-bottom: 0px;
+   text-align: center;
+   color: #ffffff;
+   width: 100%;
+   background-color: #343a40;
+   //padding: 60px 0px;
+}
+.btn-facebook{
+  background-color: #217f56;
+  text-decoration: none;
+  border: #217f56;
+}
+.btn-twitter{
+  background-color: #217f56;
+  text-decoration: none;
+  border: #217f56;
+}
+.btn-google{
+  background-color: #217f56;
+  text-decoration: none;
+  border: #217f56;
+}
+.btn-linkedin{
+  background-color: #217f56;
+  text-decoration: none;
+  border: #217f56;
+}
+.btn-youtube{
+  background-color: #217f56;
+  text-decoration: none;
+  border: #217f56;
+}
